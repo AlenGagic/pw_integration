@@ -1,7 +1,6 @@
 {
   "name": "m7-e2e",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
@@ -10,5 +9,14 @@
   "devDependencies": {
     "@playwright/test": "^1.41.1",
     "@types/node": "^20.11.6"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.41.1",
+    "playwright-core": "^1.41.1",
+    "undici-types": "^5.26.5"
+  },
+  "description": ""
 }

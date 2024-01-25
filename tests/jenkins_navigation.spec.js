@@ -15,4 +15,5 @@ test ("Testing simple navigation for Jenkins integration", async ({ page }) => {
     await page.waitForTimeout(10000);
 
     await page.close();
+    ///changes
 })

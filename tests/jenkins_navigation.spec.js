@@ -12,7 +12,7 @@ test ("Testing simple navigation for Jenkins integration", async ({ page }) => {
 
     await loginButton.click();
 
-    await page.waitForTimeout(2000);
+    await page.waitForTimeout(3000);
 
     await page.close();
     ///changes

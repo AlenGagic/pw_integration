@@ -11,7 +11,7 @@ test ("Testing simple navigation for Jenkins integration", async ({ page }) => {
     await loginButton.waitFor();
 
     await loginButton.click();
-    //testing
+    //testings
     await page.waitForTimeout(2000);
 
     await page.close();
